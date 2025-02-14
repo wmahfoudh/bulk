@@ -25,7 +25,7 @@ A bash script for processing files in bulk with custom commands, output director
 | (out=DIR)      | Output directory                                 | Current directory |
 | (ext=EXT)      | Output file extension                            | txt               |
 
-### Basic Examples
+## Basic Examples
 
 #### PDF to Text Conversion
 
@@ -45,7 +45,7 @@ A bash script for processing files in bulk with custom commands, output director
 ./bulk.sh "convert (scope=*.jpg) -resize 50% (out=resized)/(ext=jpg)"
 ```
 
-#### Other Use Case Ideas
+## Other Use Case Ideas
 
 **Multi-stage Document Processing**  
 Converts PDFs to text while adding line numbers.
